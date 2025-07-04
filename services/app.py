@@ -16,15 +16,22 @@ app = Flask(__name__)
 CORS(app)
 
 # Download required NLTK data
+import ssl
 try:
-    nltk.data.find('tokenizers/punkt')
-except LookupError:
-    nltk.download('punkt')
+    _create_unverified_https_context = ssl._create_unverified_context
+except AttributeError:
+    pass
+else:
+    ssl._create_default_https_context = _create_unverified_https_context
 
-try:
-    nltk.data.find('corpora/stopwords')
-except LookupError:
-    nltk.download('stopwords')
+# Download required NLTK packages
+nltk_packages = ['punkt', 'punkt_tab', 'stopwords']
+for package in nltk_packages:
+    try:
+        nltk.data.find(f'tokenizers/{package}' if package != 'stopwords' else f'corpora/{package}')
+    except LookupError:
+        print(f"Downloading NLTK package: {package}")
+        nltk.download(package, quiet=True)
 
 from nltk.corpus import stopwords
 from nltk.tokenize import word_tokenize
