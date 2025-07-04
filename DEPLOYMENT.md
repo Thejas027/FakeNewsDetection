@@ -19,8 +19,8 @@ Your fake news detection system is now ready to be pushed to GitHub and deployed
 Copy and paste these commands in your terminal:
 
 ```bash
-# Add the GitHub repository as remote origin (replace USERNAME with your GitHub username)
-git remote add origin https://github.com/USERNAME/fake-news-detection-system.git
+# Add the GitHub repository as remote origin
+git remote add origin https://github.com/Thejas027/fake-news-detection-system.git
 
 # Push to GitHub
 git branch -M main
@@ -73,7 +73,7 @@ fake-news-detection-system/
 - **Local Frontend**: http://localhost:3002
 - **Local Backend**: http://localhost:5000
 - **Render ML Service**: https://your-app-name.onrender.com
-- **GitHub Repo**: https://github.com/USERNAME/fake-news-detection-system
+- **GitHub Repo**: https://github.com/Thejas027/fake-news-detection-system
 
 ---
 
