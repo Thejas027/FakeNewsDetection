@@ -78,8 +78,23 @@ fake-news-detection-system/
 ## 📊 Expected URLs:
 - **Local Frontend**: http://localhost:3002
 - **Local Backend**: http://localhost:5000
-- **Render ML Service**: https://your-app-name.onrender.com
+- **Live ML Service**: https://fakenewsdetection-927d.onrender.com ✅
 - **GitHub Repo**: https://github.com/Thejas027/FakeNewsDetection
+
+## 🎉 **PRODUCTION READY!**
+
+Your ML service is now live at: **https://fakenewsdetection-927d.onrender.com**
+
+### Test the Live Service:
+```bash
+# Health check
+curl https://fakenewsdetection-927d.onrender.com/health
+
+# Test prediction
+curl -X POST https://fakenewsdetection-927d.onrender.com/predict \
+  -H "Content-Type: application/json" \
+  -d '{"text":"Your news text here"}'
+```
 
 ---
 

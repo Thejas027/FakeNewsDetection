@@ -80,7 +80,15 @@ python app.py
 
 - **Frontend**: http://localhost:3002
 - **Backend API**: http://localhost:5000/api
-- **ML Service**: http://localhost:8000
+- **Live ML Service**: https://fakenewsdetection-927d.onrender.com ✅
+
+## 🎯 **PRODUCTION STATUS: LIVE!**
+
+✅ **ML Service Deployed**: https://fakenewsdetection-927d.onrender.com
+✅ **Health Check**: `/health` endpoint active  
+✅ **Predictions**: `/predict` endpoint ready
+✅ **NLTK Data**: Downloaded and configured
+✅ **Mock Model**: Trained and loaded
 
 ## 📊 Current Status
 
