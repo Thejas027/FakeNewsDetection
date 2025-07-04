@@ -1,0 +1,151 @@
+# 📰 Fake News Detection - Test Examples
+
+This file contains real-time news examples for testing the fake news detection system.
+Use these examples to test the AI model's accuracy and performance.
+
+## 🟢 REAL NEWS EXAMPLES (Legitimate)
+
+### Example 1: Government Policy
+The Department of Health announced new vaccination guidelines today, following recommendations from the World Health Organization. According to officials, the updated protocol will be implemented in healthcare facilities nationwide starting next month. Dr. Sarah Johnson, the department's chief medical officer, stated in a press conference that "these guidelines are based on extensive clinical data and peer-reviewed research."
+
+### Example 2: Scientific Research
+Researchers at Stanford University published findings in the journal Nature showing promising results for a new cancer treatment. The study, which involved 1,200 patients over three years, demonstrated a 30% improvement in survival rates. The research team emphasized that further clinical trials are needed before the treatment becomes widely available.
+
+### Example 3: Economic News
+The Federal Reserve announced a 0.25% interest rate increase following their monthly meeting. Federal Reserve Chair Jerome Powell cited inflation concerns and strong employment data as key factors in the decision. Economic analysts predict this move will have moderate effects on mortgage rates and consumer borrowing.
+
+### Example 4: Technology News
+Apple Inc. reported quarterly earnings that exceeded Wall Street expectations, with revenue reaching $89.5 billion. The company's CEO Tim Cook attributed the strong performance to increased iPhone sales in international markets. Shares rose 3.2% in after-hours trading following the earnings announcement.
+
+### Example 5: Weather Report
+The National Weather Service has issued a severe thunderstorm warning for the midwest region, with winds expected to reach 70 mph. Meteorologist Dr. Michael Chen advises residents to secure outdoor furniture and avoid unnecessary travel. The storm system is forecasted to move eastward over the next 24 hours.
+
+### Example 6: Sports News
+The Los Angeles Lakers defeated the Boston Celtics 112-108 in last night's NBA game at the Staples Center. LeBron James led the Lakers with 28 points and 11 rebounds, while Jayson Tatum scored 32 points for the Celtics. The victory puts the Lakers in second place in the Western Conference standings.
+
+## � FAKE NEWS EXAMPLES (Suspicious/Misleading)
+
+### Example 1: Clickbait Health
+SHOCKING: Doctors HATE this one simple trick that cures diabetes in 30 days! This ancient remedy from Tibet has been hidden from the public for centuries. Big Pharma doesn't want you to know about this miracle cure that uses only common household items. Click here to discover the secret that will change your life FOREVER!
+
+### Example 2: Conspiracy Theory
+BREAKING: Government secretly controls weather with hidden satellites! Insider sources reveal that Hurricane Katrina was artificially created to test new weather manipulation technology. This explosive revelation will shock you - they don't want you to see this evidence! Share before it gets deleted!
+
+### Example 3: Celebrity Scandal
+UNBELIEVABLE: Famous actor found living secret double life as alien! Exclusive photos show transformation caught on camera. You won't believe what happens next! This story is going VIRAL - mainstream media is trying to cover it up. The truth is finally exposed!
+
+### Example 4: Investment Scam
+URGENT: Billionaire reveals cryptocurrency secret that makes $10,000 per day! This automated trading system is so powerful that banks are trying to shut it down. Limited time offer - only 100 spots available! Start making money immediately with zero experience required!
+
+### Example 5: Miracle Product
+AMAZING: 90-year-old grandmother looks 25 using this one weird trick! Dermatologists are furious about this $5 anti-aging secret. Plastic surgeons hate her! See the shocking before and after photos that prove age is just a number. Order now before it's banned!
+
+### Example 6: Political Manipulation
+EXPLOSIVE: Video proves election was completely rigged! Hidden cameras capture ballot stuffing in secret locations. This smoking gun evidence will overturn everything! Deep state operatives caught red-handed manipulating vote counts. Share this before social media censors it!
+
+## 🔍 TESTING GUIDELINES
+
+### How to Test:
+1. Copy any example text from above
+2. Paste it into the fake news detection application at http://localhost:3002
+3. Click "Analyze News" to get the AI prediction
+4. Compare the result with the labeled category
+
+### Expected Results:
+- **Real News Examples** should be classified as "REAL" with high confidence
+- **Fake News Examples** should be classified as "FAKE" with high confidence
+
+### Key Indicators the AI Looks For:
+
+#### Real News Indicators:
+- Official sources and attributions
+- Specific data and statistics
+- Professional language and tone
+- Verifiable facts and quotes
+- Balanced reporting style
+- References to credible institutions
+
+#### Fake News Indicators:
+- Sensational headlines with ALL CAPS
+- Emotional manipulation language
+- Vague or missing sources
+- Extraordinary claims without evidence
+- Urgency tactics ("BREAKING", "URGENT")
+- Conspiracy theories and fear-mongering
+- Too-good-to-be-true promises
+
+## 📊 Current System Status:
+
+✅ **Frontend**: Running on http://localhost:3002
+✅ **Backend API**: Running on http://localhost:5000
+✅ **ML Service**: Available with mock model
+✅ **Custom CSS**: Beautiful responsive design
+✅ **Error Handling**: Comprehensive validation
+✅ **Real-time Analysis**: Instant predictions
+
+---
+
+**Note**: This is an AI-powered tool for educational and demonstration purposes. Always verify news through multiple reliable sources and fact-checking organizations.
+The Federal Reserve announced today that interest rates will remain unchanged at 5.25% following their monthly meeting. Federal Reserve Chairman stated that the decision reflects current economic indicators showing stable inflation rates and steady employment growth. Market analysts had predicted this outcome based on recent economic data.
+
+### Example 3: Health News
+A new study conducted by researchers at Johns Hopkins University suggests that regular exercise can reduce the risk of heart disease by up to 35%. The comprehensive study, which followed 50,000 participants over 10 years, was published in the American Journal of Cardiology. Dr. Sarah Johnson, lead researcher, emphasized that even moderate exercise like walking 30 minutes daily can provide significant health benefits.
+
+### Example 4: Environmental News
+Climate scientists report that global carbon dioxide levels have reached a new record high of 421 parts per million, according to data from the National Oceanic and Atmospheric Administration. The measurement, taken at the Mauna Loa Observatory in Hawaii, represents a 2.4% increase from last year. Environmental groups are calling for increased action on climate change policies.
+
+### Example 5: Political News
+The European Union has announced new trade agreements with several Southeast Asian countries, expected to boost economic cooperation and reduce tariffs on key exports. The agreements, signed during the EU-ASEAN summit, will take effect next year and are projected to increase bilateral trade by 15%. Officials from both regions expressed optimism about the economic benefits.
+
+## 🔴 FAKE NEWS EXAMPLES
+
+### Example 1: Sensational Health Claim
+SHOCKING: Doctors don't want you to know this simple trick that cures diabetes overnight! This amazing discovery from a remote village will revolutionize medicine forever. Big pharma is trying to hide this secret because it threatens their billion-dollar industry. You won't believe what happens when you try this one weird ingredient found in your kitchen!
+
+### Example 2: Conspiracy Theory
+BREAKING: Government documents leaked! Secret alien technology has been powering our smartphones all along. Insider sources reveal that major tech companies have been using extraterrestrial knowledge for decades. They don't want you to see this evidence that proves everything you know is a lie. Share this before it gets deleted!
+
+### Example 3: Fake Scientific Discovery
+URGENT: Scientists discover that drinking coffee can make you live forever! This groundbreaking research that universities don't want published shows that a special coffee bean from Antarctica contains the fountain of youth. Celebrity doctors are amazed by these results that Big Coffee doesn't want you to know about.
+
+### Example 4: False Financial Advice
+EXPOSED: This cryptocurrency will make you a millionaire in 30 days! Financial experts hate this one simple investment trick that guarantees 10,000% returns. Don't let the banks fool you - this secret method has made ordinary people incredibly wealthy overnight. Act now before the government bans it!
+
+### Example 5: Fake Environmental Claim
+VIRAL: Climate change is a hoax invented by solar panel companies to get rich! Leaked emails from scientists prove that global warming is fake news designed to sell more green energy products. The truth they don't want you to know will shock you. Share this to expose the biggest lie in history!
+
+## 🟡 AMBIGUOUS EXAMPLES (Test Edge Cases)
+
+### Example 1: Opinion Piece
+While some experts believe that social media has negative effects on mental health, others argue that it provides valuable connections and support networks. The debate continues as researchers study the long-term impacts of digital technology on human behavior and well-being.
+
+### Example 2: Satirical News
+Local man reportedly discovers that his houseplant has been judging his life choices. "I caught it rolling its leaves at me," claims resident Tom Johnson. The plant, a common houseplant named Gerald, has not yet issued a statement regarding these allegations.
+
+### Example 3: Unverified Report
+Reports suggest that a new archaeological discovery may have uncovered ancient artifacts. Local authorities have not yet confirmed the findings, and researchers are still investigating the site. More information is expected to be released pending further analysis.
+
+## 📋 TESTING INSTRUCTIONS
+
+### How to Use These Examples:
+1. Copy any example from this file
+2. Paste it into the fake news detection application
+3. Click "Analyze News" to get the AI prediction
+4. Compare the result with the labeled category above
+5. Test different types of content to see how the model performs
+
+### Expected Behavior:
+- **Real News**: Should be classified as "REAL" with high confidence
+- **Fake News**: Should be classified as "FAKE" with high confidence  
+- **Ambiguous**: May have lower confidence scores or mixed results
+
+### Testing Tips:
+- Try modifying examples slightly to see how sensitive the model is
+- Test with very short vs. very long text inputs
+- Mix real and fake elements to test edge cases
+- Test with different topics (health, politics, technology, etc.)
+
+---
+
+*Last Updated: July 4, 2025*
+*Use these examples responsibly for testing and educational purposes only*
