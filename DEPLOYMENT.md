@@ -1,4 +1,4 @@
-# 🚀 GitHub Repository Setup Instructions
+# 🚀 GitHub2. Repository name: `FakeNewsDetection`Repository Setup Instructions
 
 ## 📋 Ready for GitHub and Render Deployment!
 
@@ -20,7 +20,7 @@ Copy and paste these commands in your terminal:
 
 ```bash
 # Add the GitHub repository as remote origin
-git remote add origin https://github.com/Thejas027/fake-news-detection-system.git
+git remote add origin https://github.com/Thejas027/FakeNewsDetection.git
 
 # Push to GitHub
 git branch -M main
@@ -73,7 +73,7 @@ fake-news-detection-system/
 - **Local Frontend**: http://localhost:3002
 - **Local Backend**: http://localhost:5000
 - **Render ML Service**: https://your-app-name.onrender.com
-- **GitHub Repo**: https://github.com/Thejas027/fake-news-detection-system
+- **GitHub Repo**: https://github.com/Thejas027/FakeNewsDetection
 
 ---
 
