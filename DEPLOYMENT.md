@@ -33,13 +33,19 @@ git push -u origin main
 1. Go to [Render.com](https://render.com)
 2. Sign up/Login with your GitHub account
 3. Click **"New +"** → **"Web Service"**
-4. Connect your GitHub repository: `fake-news-detection-system`
+4. Connect your GitHub repository: `FakeNewsDetection`
 5. **Important Settings:**
    - **Root Directory**: `services`
-   - **Runtime**: `Python 3`
+   - **Runtime**: `Python 3.11.8` (specified in runtime.txt)
    - **Build Command**: `pip install -r requirements.txt`
    - **Start Command**: `gunicorn app:app`
    - **Instance Type**: `Free` (for testing)
+
+### ⚠️ Deployment Notes:
+- **Python Version**: Uses Python 3.11.8 for optimal compatibility
+- **Package Versions**: Updated to latest stable versions compatible with Python 3.11+
+- **scikit-learn**: Version 1.4.2 (fixes Cython compilation issues)
+- **Flask**: Version 3.0.0 with improved performance
 
 ### 4. Update Backend to Use Render ML Service
 Once deployed on Render, you'll get a URL like: `https://your-app-name.onrender.com`

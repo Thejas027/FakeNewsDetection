@@ -37,12 +37,13 @@ FakeNewsDetection/
 - Error handling and logging
 
 ### ML Service (Python Flask)
-- Flask with CORS enabled
-- scikit-learn for machine learning
+- Flask 3.0.0 with CORS enabled
+- scikit-learn 1.4.2 for machine learning
 - NLTK for text preprocessing
 - TF-IDF vectorization
 - Logistic Regression model
 - Text preprocessing pipeline
+- **Production-ready** with Python 3.11+ compatibility
 
 ## 🚀 Getting Started
 
